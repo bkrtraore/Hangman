@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             "SYNCHRONIZED", "THIS", "THROW", "THROWS",
             "TRANSIENT", "TRUE", "TRY", "VOID", "VOLATILE", "WHILE"
     };
+
     public static final Random RANDOM = new Random();
 
     // Max errors before user lose
