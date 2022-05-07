@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private char[] wordFound;
     private int nbErrors;
     // letters already entered by user
-    private ArrayList < String > letters = new ArrayList < > ();
+    private ArrayList<String> letters = new ArrayList<>();
     private ImageView img;
     private TextView wordTv;
     private TextView wordToFindTv;
@@ -62,14 +62,14 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.new_game) {
             newGame();
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     // Method returning randomly next word to find
     private String nextWordToFind() {
@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Method for starting a new game
     public void newGame() {
+        findViewById(R.id.playAgain).setVisibility(View.INVISIBLE);
         nbErrors = -1;
         letters.clear();
         wordToFind = nextWordToFind();
@@ -94,6 +95,15 @@ public class MainActivity extends AppCompatActivity {
         wordToFindTv.setText("");
     }
 
+    // Pour le bouton rejouer
+    public void newGame(View view) {
+        newGame();
+    }
+
+    // Pour l'item du menu
+    public void newGame(MenuItem item) {
+        newGame();
+    }
 
     // Method returning trus if word is found by user
     public boolean wordFound() {
@@ -162,11 +172,15 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.you_win, Toast.LENGTH_SHORT).
                         show();
                 wordToFindTv.setText(R.string.you_win);
+                //
+                findViewById(R.id.playAgain).setVisibility(View.VISIBLE);
             } else {
                 if (nbErrors >= MAX_ERRORS) {
                     Toast.makeText(this, R.string.you_lose, Toast.LENGTH_SHORT).show();
                     wordToFindTv.setText(getString(R.string.word_to_find).
                             replace("#word#", wordToFind));
+                    //
+                    findViewById(R.id.playAgain).setVisibility(View.VISIBLE);
                 }
             }
         } else {
@@ -174,33 +188,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void newGame(MenuItem item) {
-        nbErrors = -1;
-        letters.clear();
-        wordToFind = nextWordToFind();
-
-        // word found initialization
-        wordFound = new char[wordToFind.length()];
-
-        for (int i = 0; i < wordFound.length; i++) {
-            wordFound[i] = '_';
-        }
-
-        updateImg(nbErrors);
-        wordTv.setText(wordFoundContent());
-        wordToFindTv.setText("");
-    }
 
     public void goToOptions(MenuItem item) {
         startActivity(new Intent(MainActivity.this, Options.class));
-       /* System.out.println("Hey");
-        setContentView(R.layout.options);*/
     }
 
     public void goToAbout(MenuItem item) {
         startActivity(new Intent(MainActivity.this, About.class));
-       /* System.out.println("Hey");
-        setContentView(R.layout.options);*/
     }
+
 
 }
