@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"/>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:onClick="newGame"
+        android:title="@string/changer_de_mot" />
+    <item
+        android:onClick="goToOptions"
+        android:title="@string/options" />
+    <item
+        android:onClick="goToAbout"
+        android:title="@string/a_propos" />
+</menu>

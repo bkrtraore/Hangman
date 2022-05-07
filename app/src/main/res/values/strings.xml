@@ -1,11 +1,21 @@
 <resources>
     <string name="app_name">Hangman</string>
     <string name="init_word">_ _ _ _ _ _ _</string>
-    <string name="new_game">New Game</string>
-    <string name="you_win">You win</string>
-    <string name="you_lose">You lose</string>
-    <string name="game_is_ended">Game is ended. Start a new game!</string>
-    <string name="word_to_find">Word to find was: #word#</string>
-    <string name="try_an_other">Try an other letter</string>
-    <string name="letter_already_entered">Letter already entered</string>
+    <string name="new_game">Nouvelle partie</string>
+    <string name="you_win">Vous avez gagné !</string>
+    <string name="you_lose">Vous avez perdu !</string>
+    <string name="game_is_ended">La partie est terminée. On remets ça ?</string>
+    <string name="word_to_find">Le mot à trouver était : #word#</string>
+    <string name="try_an_other">Essayez autre chose</string>
+    <string name="letter_already_entered">Cette lettre a déjà été entrée </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="options">Options</string>
+    <string name="a_propos">A propos</string>
+    <string name="changer_de_mot">Changer de mot</string>
+    <string name="riahi_ethan">RIAHI Ethan</string>
+    <string name="vakhchour_kian">VAKHCHOUR Kian</string>
+    <string name="traore_bakari">TRAORE Bakari</string>
+    <string name="dev_text_view">Ce jeu a été réalisé dans le cadre d\'un projet d\'étudiants en troisièmne année de Licence 3 MIAGE. L\'équipe de développement étant composée de :</string>
+    <string name="abdelqader_fadi">ABDELQADER Fadi</string>
 </resources>

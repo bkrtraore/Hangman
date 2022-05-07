@@ -1,5 +1,6 @@
 package com.example.hangman;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         wordToFindTv.setText("");
     }
 
+
     // Method returning trus if word is found by user
     public boolean wordFound() {
         return wordToFind.contentEquals(new String(wordFound));
@@ -171,4 +173,34 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, R.string.game_is_ended, Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void newGame(MenuItem item) {
+        nbErrors = -1;
+        letters.clear();
+        wordToFind = nextWordToFind();
+
+        // word found initialization
+        wordFound = new char[wordToFind.length()];
+
+        for (int i = 0; i < wordFound.length; i++) {
+            wordFound[i] = '_';
+        }
+
+        updateImg(nbErrors);
+        wordTv.setText(wordFoundContent());
+        wordToFindTv.setText("");
+    }
+
+    public void goToOptions(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, Options.class));
+       /* System.out.println("Hey");
+        setContentView(R.layout.options);*/
+    }
+
+    public void goToAbout(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, About.class));
+       /* System.out.println("Hey");
+        setContentView(R.layout.options);*/
+    }
+
 }
