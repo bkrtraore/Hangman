@@ -4,14 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/drawable/divider.xml" value="0.1335" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/about_us.xml" value="0.1" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/fragment_about_us.xml" value="0.1" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/item_word.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/liste.xml" value="0.12545289855072464" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/listge.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/options.xml" value="0.33" />
         <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/string.xml" value="0.1" />
-        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/layout/word_item.xml" value="0.2" />
+        <entry key="..\:/Users/Bakari/AndroidStudioProjects/Hangman/app/src/main/res/menu/main.xml" value="0.25" />
       </map>
     </option>
   </component>

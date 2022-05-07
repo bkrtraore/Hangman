@@ -5,8 +5,8 @@
         android:onClick="newGame"
         android:title="@string/changer_de_mot" />
     <item
-        android:onClick="goToOptions"
-        android:title="@string/options" />
+        android:onClick="goToListe"
+        android:title="@string/liste" />
     <item
         android:onClick="goToAbout"
         android:title="@string/a_propos" />

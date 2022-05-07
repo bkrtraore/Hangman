@@ -19,11 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="Options"
+            android:name=".Liste"
             android:exported="true">
         </activity>
         <activity
-            android:name="About"
+            android:name=".About"
             android:exported="true">
         </activity>
     </application>

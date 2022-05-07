@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity<et1> extends AppCompatActivity {
 
     // Java Keywords
     public static final String[] WORDS = {
@@ -33,14 +33,18 @@ public class MainActivity extends AppCompatActivity {
     };
 
     public static final Random RANDOM = new Random();
-
     // Max errors before user lose
     public static final int MAX_ERRORS = 6;
+
+
+
     // Word to find
     private String wordToFind;
     // Word found stored in a char array to show progression of user
     private char[] wordFound;
     private int nbErrors;
+
+
     // letters already entered by user
     private ArrayList<String> letters = new ArrayList<>();
     private ImageView img;
@@ -190,8 +194,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void goToOptions(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, Options.class));
+    public void goToListe(MenuItem item) {
+        startActivity(new Intent(MainActivity.this, Liste.class));
     }
 
     public void goToAbout(MenuItem item) {

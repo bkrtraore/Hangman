@@ -10,7 +10,7 @@
     <string name="letter_already_entered">Cette lettre a déjà été entrée </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="options">Options</string>
+    <string name="liste">Liste des mots</string>
     <string name="a_propos">A propos</string>
     <string name="changer_de_mot">Changer de mot</string>
     <string name="riahi_ethan">RIAHI Ethan</string>
