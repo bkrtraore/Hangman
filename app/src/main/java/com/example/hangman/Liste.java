@@ -37,15 +37,7 @@ public class Liste extends AppCompatActivity {
         recyclerView.setLayoutManager(recyclerViewLayoutManager);
         recyclerView.setAdapter(wordAdapter);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
-        /*
-        // Get drawable object
-        Drawable mDivider = ContextCompat.getDrawable(this, R.drawable.divider);
-        // Create a DividerItemDecoration whose orientation is Horizontal
-        DividerItemDecoration hItemDecoration = new DividerItemDecoration(this,
-                DividerItemDecoration.HORIZONTAL);
-        // Set the drawable on it
-        hItemDecoration.setDrawable(mDivider);
-        */
+
     }
 
 
