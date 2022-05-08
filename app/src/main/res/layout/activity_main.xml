@@ -56,215 +56,214 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/letters_layout_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="A"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="A" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="B"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="B" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="C"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="C" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="D"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="D" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="E"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="E" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="F"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="F" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="G"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="G" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="H"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="H" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="I"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="I" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/letters_layout_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:orientation="horizontal"
             android:layout_marginTop="5dp"
-            >
+            android:orientation="horizontal">
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="J"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="J" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="K"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="K" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="L"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="L" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="M"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="M" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="N"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="N" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="O"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="O" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="P"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="P" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="Q"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="Q" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="R"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="R" />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/letters_layout_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:orientation="horizontal"
             android:layout_marginTop="5dp"
-            >
+            android:orientation="horizontal">
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="S"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="S" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="T"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="T" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="U"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="U" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="V"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="V" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="W"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="W" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="X"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="X" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="Y"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="Y" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="Z"
                 android:layout_marginRight="2dp"
                 android:onClick="touchLetter"
-                />
+                android:text="Z" />
         </LinearLayout>
 
     </LinearLayout>

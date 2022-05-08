@@ -8,7 +8,7 @@
     <string name="word_to_find">Le mot à trouver était : #word#</string>
     <string name="try_an_other">Essayez autre chose</string>
     <string name="letter_already_entered">Cette lettre a déjà été entrée </string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="liste">Liste des mots</string>
     <string name="a_propos">A propos</string>
@@ -18,4 +18,5 @@
     <string name="traore_bakari">TRAORE Bakari</string>
     <string name="dev_text_view">Ce jeu a été réalisé dans le cadre d\'un projet d\'étudiants en troisième année de Licence MIAGE. L\'équipe de développement étant composée de :</string>
     <string name="abdelqader_fadi">ABDELQADER Fadi</string>
+    <string name="channel_name">notif_channel</string>
 </resources>

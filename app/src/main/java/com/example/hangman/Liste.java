@@ -2,6 +2,7 @@ package com.example.hangman;
 
 import android.os.Bundle;
 
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -20,14 +21,14 @@ public class Liste extends AppCompatActivity {
 
         ArrayList<Word> wordArrayList= new ArrayList<>();
 
-        Word one = new Word("Marcel","def1");
-        Word two = new Word("Christine","de2");
-        Word three = new Word("Janvier","def3");
+        String[] mots = getIntent().getStringArrayExtra("mots");
+        String[] definitions = getIntent().getStringArrayExtra("definitions");
 
 
-        wordArrayList.add(one);
-        wordArrayList.add(two);
-        wordArrayList.add(three);
+        // Mots et definitions ayant la meme taille
+        for (int i = 0; i < mots.length; i++) {
+            wordArrayList.add(new Word(mots[i], definitions[i]));
+        }
 
         RecyclerView recyclerView =findViewById(R.id.recyclerViewId);
 
